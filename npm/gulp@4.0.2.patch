@@ -1,0 +1,19 @@
+diff --git a/package.json b/package.json
+index 256684af31dde66c75e142e05a7db89f22e26bfc..64961ebf8d9ffcac7e6b05d1e7bfcc4eb66e0aba 100644
+--- a/package.json
++++ b/package.json
+@@ -30,10 +30,10 @@
+     "coveralls": "nyc report --reporter=text-lcov | coveralls"
+   },
+   "dependencies": {
+-    "glob-watcher": "^5.0.3",
+-    "gulp-cli": "^2.2.0",
+-    "undertaker": "^1.2.1",
+-    "vinyl-fs": "^3.0.0"
++    "glob-watcher": "^5.0.5",
++    "gulp-cli": "^2.3.0",
++    "undertaker": "^1.3.0",
++    "vinyl-fs": "^3.0.3"
+   },
+   "devDependencies": {
+     "coveralls": "github:phated/node-coveralls#2.x",
